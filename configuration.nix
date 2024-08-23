@@ -3,7 +3,7 @@
 {
 
   imports =
-    [ 
+    [
       ./hardware-configuration.nix
       ./communication.nix
       ./tools.nix
@@ -11,11 +11,9 @@
       ./terminal.nix
       ./ssh.nix
       ./xfce.nix
+      ./fonts.nix
       ./picom.nix
-      #./nvidia.nix
-      #./nouveau.nix
     ];
-
 
   # Bootloader.
   boot.loader.grub.enable = true;
